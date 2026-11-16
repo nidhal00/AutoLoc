@@ -1,0 +1,33 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / STS / VS Code
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.vscode/
+bin/
+nbproject/
+
+# Système / logs
+.DS_Store
+Thumbs.db
+*.log
+HELP.md
+
+# Secrets locaux (ne jamais versionner de mot de passe)
+.env
+application-local.properties
